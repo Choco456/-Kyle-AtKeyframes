@@ -15,7 +15,7 @@
 
     }
 
-    50% {
+    30% {
         left: 20px;
         background-color: aquamarine;
         background-color: antiquewhite;
@@ -71,7 +71,7 @@
 
     }
 
-    45% {
+    35% {
         left: 50px;
         background-position: 70px;
         background-color: whitesmoke;
@@ -93,6 +93,7 @@
         background: yellow;
         background: yellowgreen;
         text-align: left;
+        text-size-adjust: 209px;
         
 
     }
@@ -202,7 +203,7 @@
 
     }
 
-    45% {
+    40% {
         right: 20px;
         background-position: 70px;
         background-color: whitesmoke;
@@ -263,7 +264,7 @@
 
     }
 
-    30% {
+    25% {
         
         background-color: whitesmoke;
         font-size: medium;
@@ -275,7 +276,7 @@
     }
 
 
-    65% {
+    50% {
         backface-visibility: hidden;
         background-position: right;
         background-position: left;
