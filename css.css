@@ -1,0 +1,314 @@
+.box {
+    position: relative;
+    animation: geeks 5s infinite;
+    animation-play-state: paused;
+
+
+}
+
+
+@keyframes geeks {
+    0% {
+        left: 2px;
+        background: rgb(219, 106, 144);
+        background-color: rgb(194, 137, 137);
+
+    }
+
+    50% {
+        left: 20px;
+        background-color: aquamarine;
+        background-color: antiquewhite;
+
+
+    }
+
+
+
+    70% {
+        right: 20px;
+        background-color: blueviolet;
+        box-shadow: 50%;
+    }
+
+
+
+    100% {
+        left: 500px;
+        background: green;
+        opacity: 12%;
+    }
+}
+
+.box.horizTranslate {
+    animation-play-state: running;
+}
+
+
+/* makes it so it starts and stops when you hover over the div */
+
+.box:hover {
+    animation-play-state: running;
+}
+
+
+
+
+.box2 {
+    position: relative;
+    animation: box2 5s infinite;
+    animation-play-state: paused;
+
+
+}
+
+@keyframes box2 {
+    0% {
+        left: 0px;
+        background: green;
+        background-color: aqua;
+        text-shadow: 40%;
+
+    }
+
+    45% {
+        left: 50px;
+        background-position: 70px;
+        background-color: whitesmoke;
+        text-decoration: wavy;
+
+
+    }
+
+
+    65% {
+        left: 70px;
+        background-size: 50%;
+        background-size: 100%;
+        border-radius: 12%;
+    }
+
+    100% {
+        left: 500px;
+        background: yellow;
+        background: yellowgreen;
+        text-align: left;
+        
+
+    }
+}
+
+
+
+.box2.horizTranslate {
+    animation-play-state: running;
+    
+}
+
+/* makes it so it starts and stops when you hover over the div */
+
+.box2:hover {
+    animation-play-state: running;
+}
+
+
+
+
+
+
+
+
+
+
+.box3 {
+    position: relative;
+    animation: box3 5s infinite;
+    animation-play-state: paused;
+
+
+}
+
+@keyframes box3 {
+    0% {
+        left: 10px;
+        background: green;
+        background-color: hotpink;
+
+    }
+
+    45% {
+        left: 40px;
+        background-position: 70px;
+        background-color: whitesmoke;
+        text-transform: capitalize;
+        border-radius: 34%;
+        text-decoration-color: brown;
+
+
+    }
+
+
+    65% {
+        left: 80px;
+        background-size: 50%;
+        background-size: 100%;
+        text-decoration: aqua;
+    }
+
+    100% {
+        left: 500px;
+        background: yellow;
+        background: yellowgreen;
+        background: blue;
+        
+
+    }
+}
+
+
+
+.box3.horizTranslate {
+    animation-play-state: running;
+    
+}
+
+/* makes it so it starts and stops when you hover over the div */
+
+.box3:hover {
+    animation-play-state: running;
+}
+
+
+
+
+
+
+
+
+.box4 {
+    position: relative;
+    animation: box4 5s infinite;
+    animation-play-state: paused;
+
+
+}
+
+@keyframes box4 {
+    0% {
+        left: 0px;
+        background: gray;
+        background-color: blue;
+        clip-path: 40%;
+
+    }
+
+    45% {
+        right: 20px;
+        background-position: 70px;
+        background-color: whitesmoke;
+        text-transform: capitalize;
+        border-radius: 54%;
+
+
+    }
+
+
+    65% {
+        right: 30px;
+        background-size: 50%;
+        background-size: 100%;
+    }
+
+    100% {
+        right: 500px;
+        background: yellow;
+        background: yellowgreen;
+        background: orange;
+        
+
+    }
+}
+
+
+
+.box4.horizTranslate {
+    animation-play-state: running;
+    
+}
+
+/* makes it so it starts and stops when you hover over the div */
+
+.box4:hover {
+    animation-play-state: running;
+}
+
+
+
+
+
+
+.box5 {
+    position: relative;
+    animation: box5 5s infinite;
+    animation-play-state: paused;
+
+
+}
+
+@keyframes box5 {
+    0% {
+        background:rebeccapurple;
+        text-shadow: 40%;
+        text-size-adjust: 20px;
+
+    }
+
+    30% {
+        
+        background-color: whitesmoke;
+        font-size: medium;
+        clip-path: 40%;
+        
+       
+
+
+    }
+
+
+    65% {
+        backface-visibility: hidden;
+        background-position: right;
+        background-position: left;
+        text-indent: 30%;
+        text-decoration: double;
+
+        
+    }
+
+    100% {
+        text-size-adjust: 10px;
+        background:green;
+        background: yellowgreen;
+        text-decoration: dotted;
+    
+        
+
+    }
+}
+
+
+
+.box5.horizTranslate {
+    animation-play-state: running;
+    
+}
+
+/* makes it so it starts and stops when you hover over the div */
+
+.box5:hover {
+    animation-play-state: running;
+}
+
+
+
+
